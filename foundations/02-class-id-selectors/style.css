@@ -1,0 +1,18 @@
+/* style.css */
+
+.class {
+    background-color: #dc9797;
+    font-family: verdana, "dejavu sans", sans-serif;
+}
+.cool {
+    font-size: 24px;
+}
+#no1 {
+    color: #21618c;
+    font-size: 36px;
+}
+#no2 {
+    background-color: #9de6a0;
+    font-size: 24px;
+    font-weight: bold;
+}
