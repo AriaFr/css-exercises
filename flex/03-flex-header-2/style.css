@@ -8,9 +8,12 @@ body {
 }
 
 .header {
+  padding: 10px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -41,26 +44,19 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
-
 ul {
   list-style-type: none;
+}
+ul {
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
-.w3-container {
+
+.w2-container, .w3-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 16px;
-  margin-right: 8px;
 }
-.w2-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 8px;
-}
-.links {
-  display: flex;
-  align-items: center;
-}
+
