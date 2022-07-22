@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 input {
@@ -24,4 +29,66 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+  font-size: 15px;
+  padding: 5px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.footer{
+  background-color: #eeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  padding: 5px;
+}
+.footer .left-links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-left: -20px;
+}
+.footer .right-links{
+display: flex;
+justify-content: flex-end;
+align-self: flex-start;
+gap: 15px;
+margin-right: 20px;
+}
+.header .left-links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-left: -20px;
+}
+.header .right-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-right: 20px;
+}
+ul {
+  list-style: none
+}
+a {
+  text-decoration: none;
+
+}
+a:visited {
+  text-decoration: none;
+  color: #545454;
 }
